@@ -11,6 +11,7 @@ public class Main {
         Account acc1 = (Account) context.getBean("account1");
         Account acc2 = (Account) context.getBean("account2");
 
+        System.out.println("test push   ");
         System.out.println("Data of acccount 1");
         System.out.println("id " + acc1.getId());
         System.out.println("name " + acc1.getOwnerName());
